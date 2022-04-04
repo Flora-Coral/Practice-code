@@ -1,0 +1,144 @@
+.w {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+header {
+    height: 84px;
+    border-bottom: 2px solid #c81523;
+}
+
+.logo {
+    padding-top: 18px;
+}
+
+.registerarea {
+    height: 522px;
+    border: 1px solid #ccc;
+    margin-top: 20px;
+}
+
+.registerarea h3 {
+    height: 42px;
+    line-height: 42px;
+    font-size: 18px;
+    font-weight: 400;
+    padding: 0 10px;
+    background-color: #ebebeb;
+    border-bottom: 1px solid #ccc;
+}
+
+.registerarea h3 .login {
+    float: right;
+    font-size: 16px;
+}
+
+.registerarea h3 .login a {
+    color: #c81523;
+}
+
+.reg_form {
+    width: 600px;
+    margin: 50px auto 0;
+}
+
+.reg_form ul li {
+    margin-bottom: 20px;
+}
+
+.reg_form ul li label {
+    display: inline-block;
+    width: 88px;
+    text-align: right;
+}
+
+.reg_form ul li .inp {
+    width: 242px;
+    height: 37px;
+    margin-left: 10px;
+    padding: 0 10px;
+    border: 1px solid #ccc;
+}
+
+.error {
+    color: #c81523;
+}
+
+.error_icon {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    vertical-align: middle;
+    background: url(/shoping/upload/icon_error.png) no-repeat;
+}
+
+.success {
+    color: green;
+}
+
+.success_icon {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    vertical-align: middle;
+    background: url(/shoping/upload/icon_succes.png) no-repeat;
+    background-size: 15px 15px;
+}
+
+.safe {
+    margin-left: 170px;
+}
+
+.safe i {
+    padding: 0 12px;
+    color: #fff;
+}
+
+.safe i:nth-child(1) {
+    background-color: #de1111;
+}
+
+.safe i:nth-child(2) {
+    background-color: #40b83f;
+}
+
+.safe i:nth-child(3) {
+    background-color: #f79100;
+}
+
+.agree {
+    padding: 0 100px;
+}
+
+.agree a {
+    color: #1ba1e6;
+}
+
+.agree input {
+    vertical-align: middle;
+}
+
+.btn {
+    cursor: pointer;
+    width: 200px;
+    height: 34px;
+    margin: 30px 0 0 115px;
+    color: #fff;
+    background-color: #c81523;
+}
+
+.fotter {
+    text-align: center;
+}
+
+.links {
+    margin: 15px 0;
+}
+
+.links a {
+    margin: 0 3px;
+}
+
+.copyright {
+    line-height: 20px;
+}

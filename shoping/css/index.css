@@ -1,0 +1,496 @@
+ /* 首页主体模块开始 */
+ .main {
+     margin-left: 219px;
+     margin-top: 10px;
+     width: 980px;
+     height: 455px;
+ }
+
+ .main .focus {
+     position: relative;
+     float: left;
+ }
+
+ .main .focus .arrow_l {
+     position: absolute;
+     top: 50%;
+     margin-top: -20px;
+     font-family: 'icomoon';
+     width: 25px;
+     height: 40px;
+     color: #fff;
+     font-size: 18px;
+     line-height: 40px;
+     text-align: center;
+     background: rgba(0, 0, 0, .3);
+
+ }
+
+ .main .focus .arrow_r {
+     position: absolute;
+     right: 0;
+     top: 50%;
+     margin-top: -20px;
+     font-family: 'icomoon';
+     width: 25px;
+     height: 40px;
+     color: #fff;
+     font-size: 18px;
+     line-height: 40px;
+     text-align: center;
+     background: rgba(0, 0, 0, .3);
+ }
+
+ .newsflash {
+     float: right;
+     width: 250px;
+     height: 455px;
+ }
+
+ .news {
+     height: 165px;
+     border: 1px solid #e4e4e4;
+ }
+
+ .news_hd {
+     height: 33px;
+     line-height: 33px;
+     padding: 0 15px;
+     border-bottom: 1px dotted #e4e4e4;
+
+ }
+
+ .news_hd h5 {
+     float: left;
+     font-size: 14px;
+ }
+
+ .news_hd a {
+     float: right;
+ }
+
+ .news_hd a::after {
+     content: "";
+     font-family: 'icomoon';
+ }
+
+ .news_bd {
+     padding: 5px 15px 0;
+ }
+
+ .news_bd ul li a span {
+     display: inline-block;
+     width: 35px;
+     height: 16px;
+     line-height: 16px;
+     color: #e1251b;
+     text-align: center;
+     background: rgba(97, 53, 50, .08);
+ }
+
+ .news_bd ul li {
+     height: 24px;
+     line-height: 24px;
+     overflow: hidden;
+     text-overflow: ellipsis;
+     white-space: nowrap;
+ }
+
+ .lifeservice {
+     height: 209px;
+     border: 1px solid #e4e4e4;
+     border-top: 0;
+ }
+
+ .lifeservice ul li {
+     float: left;
+     width: 62px;
+     height: calc(209px/3);
+     border-bottom: 1px solid #eee;
+     border-right: 1px solid #eee;
+     box-sizing: border-box;
+     text-align: center;
+ }
+
+ .lifeservice ul li a i {
+     display: inline-block;
+     width: 30px;
+     height: 28px;
+     margin-top: 12px;
+     background: url(../images/icons.png) no-repeat -14px -15px;
+ }
+
+ .lifeservice ul li:nth-child(4n) {
+     border-right: 0;
+ }
+
+ .bargain {
+     padding-top: 5px;
+ }
+
+ /* 首页主体模块结束 */
+ /* 推荐模块开始  */
+ .recom {
+     height: 163px;
+     background-color: #ebebeb;
+     margin-top: 12px;
+     margin-bottom: 31px;
+ }
+
+ .recom_hd {
+     float: left;
+     width: 206px;
+     height: 163px;
+     text-align: center;
+     line-height: 163px;
+     background-color: #5c5251;
+ }
+
+ .recom_bd ul li {
+     float: left;
+ }
+
+ .recom_bd ul li {
+     line-height: 163px;
+     border-right: 2px solid #e4e4e4;
+ }
+
+ .recom_bd ul li:last-child {
+     border-right: 0;
+ }
+
+ /* 推荐模块结束  */
+ /* 猜你喜欢模块开始 */
+ .like {
+     height: 261px;
+     margin-bottom: 30px;
+ }
+
+ .like_hd {
+     height: 18px;
+     line-height: 18px;
+     margin-bottom: 10px;
+ }
+
+ .like_hd h4 {
+     float: left;
+     font-weight: 400;
+     font-size: 18px;
+ }
+
+ .like_hd a {
+     float: right;
+ }
+
+ .like_hd a::after {
+     transition: all 1s;
+     display: inline-block;
+     content: "";
+     font-family: 'icomoon';
+ }
+
+ .like_hd a:hover::after {
+     transform: rotate(360deg);
+ }
+
+ .like_bd {
+     border: 1px solid #ebebeb;
+     height: 233px;
+ }
+
+ .like_bd ul li {
+     float: left;
+ }
+
+ .like_bd ul li a p {
+     margin-bottom: 5px;
+     padding-left: 36px;
+ }
+
+ .like_bd ul li a span {
+     font-size: 15px;
+     height: 15px;
+     padding-left: 36px;
+     color: #df3033;
+ }
+
+ .like_bd .intro {
+     border-right: 1px solid #ebebeb;
+ }
+
+ /* 猜你喜欢模块结束 */
+ /* 有趣区开始 */
+ .fun {
+     height: 435px;
+ }
+
+ .fun .common_hd p {
+     font-size: 18px;
+ }
+
+ .fun .fun_bd {
+     width: 1200px;
+     height: 406px;
+     border: 1px solid #ebebeb;
+ }
+
+ .fun .fun_bd .box1 {
+     float: left;
+     width: 404px;
+     height: 405px;
+ }
+
+ .fun .fun_bd .box2 {
+     float: left;
+     width: 227px;
+     height: 405px;
+ }
+
+ .fun .fun_bd .box2 .box2_top h4 {
+     font-size: 14px;
+     width: 191px;
+     height: 40px;
+     line-height: 40px;
+     margin-left: 18px;
+     text-align: center;
+     border-bottom: 1px dashed #ebebeb;
+ }
+
+ .fun .fun_bd .box2 .box2_top a img {
+     height: 206px;
+     width: 227px;
+     border-bottom: 1px solid #ebebeb;
+     padding: 25px 0 12px 8px;
+ }
+
+ .fun .fun_bd .box2 .box2_bottom a img {
+     height: 158px;
+     width: 227px;
+     padding: 9px 0 6px 9px;
+ }
+
+ .fun .fun_bd .box3 {
+     float: left;
+     width: 407px;
+     height: 405px;
+     border-left: 1px solid #ebebeb;
+     border-right: 1px solid #ebebeb;
+     box-sizing: border-box;
+     background-color: #f7f7f7;
+ }
+
+ .fun .fun_bd .box3 .box3_top h4 {
+     font-size: 14px;
+     width: 365px;
+     height: 40px;
+     line-height: 40px;
+     margin-left: 21px;
+     text-align: center;
+     border-bottom: 1px dashed #ebebeb;
+     box-sizing: border-box;
+ }
+
+ .box3_top a img {
+     height: 206px;
+     width: 405px;
+     border-bottom: 1px solid #ededed;
+     padding: 25px 0 12px 8px;
+ }
+
+ .box3_bottom {
+     width: 405px;
+     height: 158px;
+ }
+
+ .box3_bottom .box3_bottom_left {
+     float: left;
+     width: 50%;
+     border-right: 1px solid #ededed;
+     box-sizing: border-box;
+ }
+
+ .box3_bottom .box3_bottom_left a img {
+     width: 100%;
+     height: 158px;
+ }
+
+ .box3_bottom .box3_bottom_right {
+     float: right;
+     width: 50%;
+ }
+
+ .box3_bottom .box3_bottom_right a img {
+     width: 202px;
+     height: 158px;
+ }
+
+ .fun .fun_bd .box4 {
+     float: left;
+     width: 160px;
+     height: 405px;
+     padding: 10px;
+     box-sizing: border-box;
+ }
+
+ .fun .fun_bd .box4 ul {
+     width: 142px;
+     height: 385px;
+ }
+
+ .fun .fun_bd .box4 ul li {
+     float: left;
+     width: 71px;
+     height: calc(385px / 7);
+     text-align: center;
+     border-bottom: 1px dashed #ededed;
+ }
+
+ .fun .fun_bd .box4 ul li:nth-child(2n-1) {
+     border-right: 1px dashed #ededed;
+ }
+
+ .fun .fun_bd .box4 ul li:nth-child(13) {
+     border-bottom: none;
+ }
+
+ .fun .fun_bd .box4 ul li:nth-child(14) {
+     border-bottom: none;
+ }
+
+ .fun .fun_bd .box4 ul li a {
+     display: inline-block;
+     font-size: 14px;
+     line-height: calc(385px /7);
+ }
+
+ /* 有趣区结束 */
+ /* 楼层制作开始 */
+ .co {
+     margin-top: 29px;
+     margin-bottom: 20px;
+ }
+
+ .box_hd {
+     height: 30px;
+     border-bottom: 2px solid #c81623;
+ }
+
+ .box_hd h3 {
+     float: left;
+     font-size: 18px;
+     color: #c81623;
+     font-weight: 400;
+
+ }
+
+ .tab-list {
+     float: right;
+     line-height: 30px;
+ }
+
+ .tab-list ul li {
+     float: left;
+ }
+
+ .tab-list ul li a {
+     margin: 0 15px;
+ }
+
+ .tab-list ul li:first-child a {
+     color: #c81623;
+ }
+
+ .box_bd {
+     height: 361px;
+ }
+
+ .tab_list_item div {
+     float: left;
+ }
+
+ .tab_list_item div:nth-child(1) {
+     width: 210px;
+     padding: 0 12px 0 14px;
+     background-color: #f9f9f9;
+ }
+
+ .tab_list_item div:nth-child(1) ul li:nth-child(2n-1) {
+     margin-right: 12px;
+ }
+
+ .tab_list_item div:nth-child(1) ul li {
+     float: left;
+     width: 86px;
+     height: 33px;
+     border-bottom: 1px solid #ededed;
+     text-align: center;
+     line-height: 33px;
+ }
+
+ .tab_list_item div:nth-child(2) {
+     width: 329px;
+ }
+
+ .tab_list_item div:nth-child(3) {
+     width: 221px;
+ }
+
+ .tab_list_item div:nth-child(4) {
+     width: 221px;
+ }
+
+ .tab_list_item div:nth-child(5) {
+     width: 219px;
+ }
+
+ .tab_list_item div .imb {
+     display: block;
+     border-bottom: 1px solid #ededed;
+ }
+
+ .tab_list_item div .imbl {
+     display: block;
+     border-bottom: 1px solid #ededed;
+     border-left: 1px solid #ededed;
+ }
+
+ .tab_list_item div .imlb {
+     display: block;
+     border-left: 1px solid #ededed;
+     border-bottom: 1px solid #ededed;
+
+ }
+
+ .co_footer {
+     height: 65px;
+     background-color: #f7f7f7;
+     padding: 13px 0;
+     box-sizing: border-box;
+ }
+
+ .co_footer ul li {
+     float: left;
+     width: 120px;
+     height: 39px;
+     line-height: 39px;
+     text-align: center;
+     border-right: 1px dashed #ccc;
+ }
+
+ .co_footer ul li:nth-child(10) {
+     border: none;
+ }
+
+ /* 楼层制作结束 */
+ /* 热门疯抢开始 */
+ .shop {
+     height: 311px;
+     margin-top: 29px;
+     margin-bottom: 37px;
+ }
+
+ .shop .common_hd {
+     font-size: 18px;
+ }
+
+ /* 热门疯抢结束 */

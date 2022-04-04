@@ -1,0 +1,141 @@
+.nav {
+    overflow: hidden;
+}
+
+.sk {
+    position: absolute;
+    left: 190px;
+    top: 40px;
+    border-left: 1px solid #c81523;
+    padding: 3px 0 0 5px;
+}
+
+.sk_list {
+    float: left;
+}
+
+.sk_list ul li {
+    float: left;
+}
+
+.sk_list ul li a {
+    display: block;
+    line-height: 47px;
+    font-size: 16px;
+    font-weight: 700;
+    padding: 0 30px;
+    color: #000;
+}
+
+.sk_list ul li a:hover {
+    color: #c81523;
+}
+
+.sk_con {
+    float: left;
+}
+
+.sk_con ul li {
+    float: left;
+}
+
+.sk_con ul li a {
+    display: block;
+    line-height: 49px;
+    font-size: 14px;
+    padding: 0 20px;
+}
+
+.sk_con ul li:last-child a::after {
+    content: "\e91e";
+    font-family: 'icomoon';
+}
+
+.sk_con ul li:nth-child(2) a {
+    color: #c81523;
+}
+
+/* 主体内容开始 */
+.sk_container .sk_hd img {
+    width: 100%;
+}
+
+/* 主体内容结束 */
+.sk_bd {
+    margin-top: 15px;
+}
+
+.sk_bd ul li {
+    margin-bottom: 15px;
+    margin-right: 13px;
+    float: left;
+    width: 290px;
+    overflow: hidden;
+    border: 1px solid transparent;
+}
+
+.sk_bd ul li:nth-child(4n) {
+    margin-right: 0;
+}
+
+.sk_bd ul li:hover {
+    border: 1px solid #c81523;
+}
+
+/* .bd-img img {
+    width: 288px;
+} */
+
+.bd-text {
+    font-size: 16px;
+}
+
+.bd-b {
+    padding-left: 8px;
+}
+
+.bd-b .bd-s1 {
+    color: #d44;
+    font-size: 25px;
+    font-weight: 700;
+}
+
+.bd-b .bd-s2 {
+    font-size: 16px;
+    text-decoration: line-through;
+}
+
+.bd-b .bd-s3 {
+    color: #d44;
+}
+
+.bd-b p {
+    font-size: 16px;
+}
+
+.sk-jin {
+    display: inline-block;
+    width: 125px;
+    height: 10px;
+    border: 1px solid #c81523;
+    border-radius: 8px;
+}
+
+.sk-jin::after {
+    content: "";
+    display: block;
+    width: 87%;
+    height: 8px;
+    border-radius: 8px 0 0 8px;
+    background-color: #c81523;
+}
+
+button {
+    margin-top: 5px;
+    width: 100%;
+    height: 50px;
+    color: white;
+    font-size: 18px;
+    letter-spacing: 5px;
+    background-color: #b2191b;
+}
